@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import localFont from '@next/font/local'
+
+const Bogam = localFont({ src: '../public/Bogam.woff2' })
 
 export default function Home() {
   return (
@@ -9,7 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className={Bogam.className}>
         <h1>thomas</h1>
         <h1>gerritt</h1>
         <h1>broadwater</h1>

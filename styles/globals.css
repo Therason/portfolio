@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: rgb(209, 69, 51);
+  color: #010101;
 }
 
 html,
@@ -12,10 +12,5 @@ body {
 }
 
 body {
-  background: rgb(33, 31, 31);
-}
-
-p {
-  font-size: 100px;
-  margin-right: 20px;
+  background: #f6f3e4;
 }

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import localFont from '@next/font/local'
+import motion from 'framer-motion'
 
 const Bogam = localFont({ src: '../public/Bogam.woff2' })
 
@@ -13,9 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={Bogam.className}>
-        <h1>thomas</h1>
-        <h1>gerritt</h1>
-        <h1>broadwater</h1>
+        <span style={{ textAlign: 'right' }}>
+          <p>thomas</p>
+          <p>gerritt</p>
+          <p>broadwater</p>
+        </span>
       </main>
     </>
   )

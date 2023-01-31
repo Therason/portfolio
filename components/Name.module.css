@@ -1,0 +1,18 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first, .mid, .last { font-size: 150px }
+.first, .last { position: absolute }
+
+.first {
+  right: 0;
+  top: -150px;
+}
+
+.mid { color: #fb5353 }
+
+.last { left: 0 }

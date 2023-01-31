@@ -1,34 +1,6 @@
 import Head from 'next/head'
 import localFont from '@next/font/local'
-import styled from 'styled-components'
-
-const Container = styled.div`
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  span {
-    position: relative;
-  }
-  p {
-    font-size: 150px;
-  }
-`
-
-const First = styled.p`
-  position: absolute;
-  right: 0;
-  top: -150px;
-`
-
-const Mid = styled.p`
-  color: #fb5353;
-`
-
-const Last = styled.p`
-  position: absolute;
-  left: 0;
-`
+import Name from '@/components/Name'
 
 const Bogam = localFont({ src: '../public/Bogam.woff2' })
 
@@ -41,13 +13,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container className={Bogam.className}>
-        <span>
-          <First>thomas</First>
-          <Mid>gerritt</Mid>
-          <Last>broadwater</Last>
-        </span>
-      </Container>
+      <div className={Bogam.className}>
+        <Name />
+      </div>
     </>
   )
 }

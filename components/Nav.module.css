@@ -1,0 +1,28 @@
+.bar {
+  z-index: 100;
+  width: 100vw;
+  height: 10vh;
+  padding: 0px 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #fb5353;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.icon {
+  cursor: pointer;
+  width: 2.5em;
+  height: 2.5em;
+}

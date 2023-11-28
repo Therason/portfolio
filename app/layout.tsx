@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import localFont from 'next/font/local'
+import { Navbar } from '@/components'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const ravigsfen = localFont({
@@ -30,7 +31,10 @@ export default function RootLayout({
       lang='en'
       className={`${inter.variable} ${ravigsfen.variable} ${oskon.variable}`}
     >
-      <body className={oskon.className}>{children}</body>
+      <body className={oskon.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }

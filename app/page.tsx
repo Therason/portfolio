@@ -23,10 +23,46 @@ export default function Home() {
           </h1>
         </div>
         <div className={styles.landingImg}>
-          <div></div>
-          <p>Web developer based in Washington, D.C.</p>
+          <div className={styles.illustration}></div>
+          <div className={styles.landingImgText}>
+            <p>Web developer based in Washington, D.C.</p>
+            <p>
+              I create fun and interactive sites with the purpose of connecting
+              people across the globe.
+            </p>
+          </div>
+        </div>
+        <div className={styles.aboutDeco}>
+          <Image src='/about.svg' alt='decoration' fill />
         </div>
       </section>
+
+      {/* <section className={styles.front}>
+        <div className={styles.landingHeader}>
+          <h1>
+            <span>FRONT</span>
+            <span>END</span>
+          </h1>
+        </div>
+      </section>
+
+      <section className={styles.front}>
+        <div className={styles.landingHeader}>
+          <h1>
+            <span>BACK</span>
+            <span>END</span>
+          </h1>
+        </div>
+      </section>
+
+      <section className={styles.front}>
+        <div className={styles.landingHeader}>
+          <h1>
+            <span>REAR</span>
+            <span>END?</span>
+          </h1>
+        </div>
+      </section> */}
     </main>
   )
 }

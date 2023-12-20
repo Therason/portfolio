@@ -1,6 +1,8 @@
 import styles from './page.module.css'
 import Image from 'next/image'
 
+import { Landing } from '@/components'
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -15,27 +17,7 @@ export default function Home() {
         ></Image>
       </section>
 
-      <section className={styles.landing}>
-        <div className={styles.landingHeader}>
-          <h1>
-            <span>FULLSTACK</span>
-            <span>DEVELOPER</span>
-          </h1>
-        </div>
-        <div className={styles.landingImg}>
-          <div className={styles.illustration}></div>
-          <div className={styles.landingImgText}>
-            <p>Web developer based in Washington, D.C.</p>
-            <p>
-              I create fun and interactive sites with the purpose of connecting
-              people across the globe.
-            </p>
-          </div>
-        </div>
-        <div className={styles.aboutDeco}>
-          <Image src='/about.svg' alt='decoration' fill />
-        </div>
-      </section>
+      <Landing />
 
       {/* <section className={styles.front}>
         <div className={styles.landingHeader}>

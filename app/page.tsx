@@ -1,7 +1,7 @@
 import styles from './page.module.css'
 import Image from 'next/image'
 
-import { Landing } from '@/components'
+import { Landing, Skills } from '@/components'
 
 export default function Home() {
   return (
@@ -18,33 +18,7 @@ export default function Home() {
       </section>
 
       <Landing />
-
-      {/* <section className={styles.front}>
-        <div className={styles.landingHeader}>
-          <h1>
-            <span>FRONT</span>
-            <span>END</span>
-          </h1>
-        </div>
-      </section>
-
-      <section className={styles.front}>
-        <div className={styles.landingHeader}>
-          <h1>
-            <span>BACK</span>
-            <span>END</span>
-          </h1>
-        </div>
-      </section>
-
-      <section className={styles.front}>
-        <div className={styles.landingHeader}>
-          <h1>
-            <span>REAR</span>
-            <span>END?</span>
-          </h1>
-        </div>
-      </section> */}
+      <Skills />
     </main>
   )
 }

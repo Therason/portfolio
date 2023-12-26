@@ -1,0 +1,27 @@
+.skills {
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: 5em 4em;
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 3fr;
+  gap: 12em;
+}
+
+.skillHeader {
+  font-family: var(--font-ravigsfen);
+  font-size: 6rem;
+}
+
+.skillHeader h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillHeader h1 span {
+  width: 100%;
+}
+
+.skillHeader h1 span:nth-child(2) {
+  text-align: right;
+}

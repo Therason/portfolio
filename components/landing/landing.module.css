@@ -6,6 +6,7 @@
   position: relative;
   grid-template-columns: 1fr 1fr;
   gap: 12em;
+  height: 100dvh;
 }
 
 .landing div:nth-child(-n + 2) {

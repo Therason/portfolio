@@ -27,12 +27,17 @@ export function Skills() {
         <li>
           <h3>Responsiveness</h3>
         </li>
-      </ul>
-      <ul className={styles.back}>
         <li>
-          <h3></h3>
+          <h3>WebGL</h3>
+        </li>
+        <li>
+          <h3>Idk what I should put tbh</h3>
+        </li>
+        <li>
+          <h3>Or how to design this part</h3>
         </li>
       </ul>
+      <ul className={styles.back}></ul>
       <ul className={styles.rear}></ul>
     </section>
   )

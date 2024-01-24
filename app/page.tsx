@@ -1,7 +1,7 @@
 import styles from './page.module.css'
 import Image from 'next/image'
 
-import { Landing, Skills } from '@/components'
+import { Landing, Skills, Projects, Contact } from '@/components'
 
 export default function Home() {
   return (
@@ -19,6 +19,8 @@ export default function Home() {
 
       <Landing />
       <Skills />
+      <Projects />
+      <Contact />
     </main>
   )
 }

@@ -1,0 +1,35 @@
+.projects {
+  background: var(--color-red);
+  color: var(--color-white);
+  padding: 5em 4em;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.projectsHeader {
+  padding-top: 1em;
+  font-family: var(--font-ravigsfen);
+  font-size: 6rem;
+}
+
+.showcaseContainer {
+  background: var(--color-black);
+  width: 75%;
+  height: 1000px;
+  border-radius: 20px;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.showcaseContainer p {
+  position: absolute;
+  top: 25px;
+}
+
+.showcaseContainer div {
+  background: var(--color-white);
+  width: 60%;
+  height: 350px;
+  border-radius: 10px;
+}
